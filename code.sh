@@ -1,2 +1,2 @@
 #!/bin/bash
-echo v1 in pr3"
+echo "v1 in pr3"

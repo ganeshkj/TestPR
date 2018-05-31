@@ -2,7 +2,7 @@ language: bash
 
 before_script:
     - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.0.3.tgz" | tar zx
-    - travis_wait 30 echo "waited for 30"
+    - travis_wait 300 echo "waited for 30"
 
 script:
 - bash code.sh
